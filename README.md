@@ -12,7 +12,7 @@ Status is stated plainly. **Planned** means nothing is built yet. Results appear
 
 | # | Project | Core problem | Language | Hardware | Status |
 | --- | --- | --- | --- | --- | --- |
-| 3 | [FuseTrack](https://github.com/PCSchmidt/fusetrack) | Multi-sensor fusion tracker for counter-UAS; learned vs. classical association | Rust | None (simulated sensors) | In progress (v0.1: single-target EKF) |
+| 3 | [FuseTrack](https://github.com/PCSchmidt/fusetrack) | Multi-sensor fusion tracker for counter-UAS; learned vs. classical association | Rust | None (simulated sensors) | In progress (v0.3: GNN tracker, IMM) |
 | 1 | Sentinel Node | Detect → track → publish on a 15 W edge budget | C++ / Python | Jetson Orin Nano | Planned |
 | 6 | TriageBox | Air-gapped distilled, quantized LLM/VLM for ISR triage | Python / C++ | Jetson Orin Nano / AGX | Planned |
 | 2 | SpectrumSentry | Open-set RF drone-link classification from raw IQ | Python / C++ | RTL-SDR | Planned |
