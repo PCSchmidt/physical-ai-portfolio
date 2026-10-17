@@ -14,7 +14,7 @@ Status is stated plainly. **Planned** means nothing is built yet. Results appear
 | --- | --- | --- | --- | --- | --- |
 | 3 | [FuseTrack](https://github.com/PCSchmidt/fusetrack) | Multi-sensor fusion tracker for counter-UAS; learned vs. classical association | Rust | None (simulated sensors) | In progress (v0.4: GNN tracker with IMM, clutter-robust confirmation) |
 | 1 | [Sentinel Node](https://github.com/PCSchmidt/sentinel-node) | Detect → track → publish on a 15 W edge budget | Python (C++ later) | Desktop GPU first, then Jetson Orin Nano | In progress (scaffold + desktop-GPU detector precision result; no device results) |
-| 6 | TriageBox | Air-gapped distilled, quantized LLM/VLM for ISR triage | Python / C++ | Jetson Orin Nano / AGX | Planned |
+| 6 | [TriageBox](https://github.com/PCSchmidt/triagebox) | Air-gapped distilled, quantized LLM/VLM for ISR triage | Python / C++ | Desktop GPU first, then Jetson Orin Nano | In progress (scaffold, SQuAD 2.0 benchmark and retrieval baseline; no model results) |
 | 2 | SpectrumSentry | Open-set RF drone-link classification from raw IQ | Python / C++ | RTL-SDR | Planned |
 | 7 | Sustain-IQ | TinyML predictive maintenance, edge-to-cloud | C / Python | ESP32-S3 | Planned |
 | 4 | IronBoot | Verified boot, signed OTA, on-MCU anomaly detection | Embedded Rust | STM32 / nRF | Planned |
