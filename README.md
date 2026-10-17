@@ -16,7 +16,7 @@ Status is stated plainly. **Planned** means nothing is built yet. Results appear
 | 1 | [Sentinel Node](https://github.com/PCSchmidt/sentinel-node) | Detect → track → publish on a 15 W edge budget | Python (C++ later) | Desktop GPU first, then Jetson Orin Nano | In progress (scaffold + desktop-GPU detector precision result; no device results) |
 | 6 | [TriageBox](https://github.com/PCSchmidt/triagebox) | Air-gapped distilled, quantized LLM/VLM for ISR triage | Python / C++ | Desktop GPU first, then Jetson Orin Nano | In progress (quantisation ladder measured on a laptop GPU: quality vs. energy for 1.5B and 7B at three precisions; no edge-device or judge-model results yet) |
 | 2 | SpectrumSentry | Open-set RF drone-link classification from raw IQ | Python / C++ | RTL-SDR | Planned |
-| 7 | Sustain-IQ | TinyML predictive maintenance, edge-to-cloud | C / Python | ESP32-S3 | Planned |
+| 7 | [Sustain-IQ](https://github.com/PCSchmidt/sustain-iq) | TinyML vibration classification from public bearing data to a microcontroller | Python / Rust | Microcontroller board (planned) | In progress (phase 1 on a PC: honest evaluation and a bit-exact Rust inference engine; nothing on a microcontroller yet) |
 | 4 | IronBoot | Verified boot, signed OTA, on-MCU anomaly detection | Embedded Rust | STM32 / nRF | Planned |
 | 5 | WILCO | Language-tasked drone autonomy inside a safety envelope | C++ / Python | PX4 SITL + Jetson | Planned |
 | 8 | FleetForge | Signed model OTA, canary rollout, on-device eval | Go or Rust | Reuses devices above | Planned |
