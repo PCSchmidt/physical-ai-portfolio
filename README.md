@@ -18,8 +18,8 @@ Status is stated plainly. **Planned** means nothing is built yet. Results appear
 | 2 | [SpectrumSentry](https://github.com/PCSchmidt/spectrumsentry) | Open-set RF drone-link classification from raw IQ | Python (C++ later) | Public datasets first (no SDR yet) | In progress (two public datasets; leak-aware splits, simulated-shift sweeps and open-set recognition measured; nothing live or on a device) |
 | 7 | [Sustain-IQ](https://github.com/PCSchmidt/sustain-iq) | TinyML vibration classification from public bearing data to a microcontroller | Python / Rust | Microcontroller board (planned) | In progress (phase 1 on a PC: honest evaluation and a bit-exact Rust inference engine; nothing on a microcontroller yet) |
 | 4 | [IronBoot](https://github.com/PCSchmidt/ironboot) | Verified boot, signed A/B update, rollback protection | Embedded Rust | RP2350 (planned) | In progress (update logic and threat model tested by exhaustive power-cut injection on a simulated flash; nothing on a chip, no on-MCU anomaly detection yet) |
-| 5 | WILCO | Language-tasked drone autonomy inside a safety envelope | C++ / Python | PX4 SITL + Jetson | Planned |
-| 8 | FleetForge | Signed model OTA, canary rollout, on-device eval | Go or Rust | Reuses devices above | Planned |
+| 5 | [WILCO](https://github.com/PCSchmidt/wilco) | Language-tasked drone autonomy inside a safety envelope | C++ / Python | PX4 SITL + Jetson | In progress (a tested safety monitor and a 200-scenario scoring harness with stub planners; the simulator runs in a container but nothing is flown by it yet, and no language model is wired in) |
+| 8 | [FleetForge](https://github.com/PCSchmidt/fleetforge) | Signed model OTA, canary rollout, on-device eval | Go or Rust | Reuses devices above | In progress (simulated sequential shadow-evaluation test and a tested signed-artifact verifier; no device agent, control plane or real devices) |
 
 Numbers follow the original project slate; rows are listed in build order. Each project lives in its own repository and is linked here once it has a first commit.
 
